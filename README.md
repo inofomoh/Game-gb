@@ -1,1 +1,1 @@
-# Game-gb
+# GameVerse Frontend

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameVerse | Open World Game Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>GameVerse Open World Game Generator</h1>
+    <p>Create your own open world game using AI + Unreal Engine + Cloud</p>
+
+    <form id="gameForm">
+      <input type="text" id="gameName" placeholder="Enter Game Name" required>
+      <select id="gameType">
+        <option value="Open World">Open World</option>
+        <option value="Racing">Racing</option>
+        <option value="FPS">First Person Shooter</option>
+        <option value="Fighting">Fighting</option>
+        <option value="Survival">Survival</option>
+        <option value="RPG">RPG</option>
+      </select>
+      <textarea id="gameDescription" placeholder="Describe Your Game..." required></textarea>
+      <button type="submit">Generate Game</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
